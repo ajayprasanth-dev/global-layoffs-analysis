@@ -10,6 +10,7 @@ The analysis includes data cleaning, transformation, and exploratory data analys
 
 The dataset contains information about company layoffs across different countries and industries.
 
+
 ### Key columns:
 
 - company
@@ -22,6 +23,8 @@ The dataset contains information about company layoffs across different countrie
 - country
 funds_raised_millions
 
+
+
 ### Tools & Technologies
 
 SQLite
@@ -29,21 +32,25 @@ SQL
 GitHub
 DB Browser for SQLite
 
+
+
 ### Data Cleaning Steps
 
-Created a staging table to preserve the original dataset.
+- Created a staging table to preserve the original dataset.
 
-Identified and removed duplicate records.
+- Identified and removed duplicate records.
 
-Standardized text columns (company, industry, country, stage).
+- Standardized text columns (company, industry, country, stage).
 
-Fixed inconsistent date formats and converted them to a uniform format (YYYY-MM-DD).
+- Fixed inconsistent date formats and converted them to a uniform format (YYYY-MM-DD).
 
-Handled null and blank values in key columns.
+- Hanled null and blank values in key columns.
 
-Converted numeric columns (total_laid_off, percentage_laid_off, funds_raised_millions) to proper data types.
+- Converted numeric columns (total_laid_off, percentage_laid_off, funds_raised_millions) to proper data types.
 
-Created a clean final table for analysis.
+- Created a clean final table for analysis.
+
+
 
 ### Exploratory Data Analysis (EDA)
 
