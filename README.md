@@ -96,19 +96,8 @@ Reduced startup funding
 
 Business restructuring and automation
 
-### Project Structure
 
-global-layoffs-analysis/
-│
-├── data/
-│   └── layoffs.csv
-│
-├── sql/
-│   └── data_cleaning.sql
-│   └── eda.sql
-│
-├── insights.md
-├── README.md
+
 
 ### Future Work
 
